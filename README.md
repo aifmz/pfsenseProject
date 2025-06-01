@@ -1,4 +1,5 @@
-Step1: set up pfsense network adapters 1st WAN 2nd Host-Only(LAN1) 3RD Host-Only 
+Step1: set up pfsense network adapters 1st WAN 2nd Host-Only(LAN1) 3RD Host-Only
+
 Step2: configure the WAN with dhcp and lan by default takes 192.168.1.1 (preferred to keep as it is ) can be changed but if not needs to change LAN subnet from virtual network editor.
 ![image](https://github.com/user-attachments/assets/80279be6-9571-4d84-bef1-a3551addcfed)
 Step3: edit kali’s network adapeter to vmnet1 (LAN1)
